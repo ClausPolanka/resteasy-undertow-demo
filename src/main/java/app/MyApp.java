@@ -1,4 +1,6 @@
-import resources.*;
+package app;
+
+import app.resources.*;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

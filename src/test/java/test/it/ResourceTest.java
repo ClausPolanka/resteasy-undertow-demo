@@ -1,3 +1,6 @@
+package test.it;
+
+import app.*;
 import io.undertow.servlet.api.*;
 import org.jboss.resteasy.plugins.server.undertow.*;
 import org.junit.*;
@@ -5,9 +8,9 @@ import org.junit.*;
 import javax.ws.rs.client.*;
 
 import static org.jboss.resteasy.test.TestPortProvider.*;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class UndertowTest {
+public class ResourceTest {
     private static UndertowJaxrsServer server;
     
     @BeforeClass
